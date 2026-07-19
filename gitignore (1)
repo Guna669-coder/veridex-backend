@@ -1,0 +1,67 @@
+# ═══════════════════════════════════════════
+# VERIDEX BACKEND — .gitignore
+# ═══════════════════════════════════════════
+
+# ── CRITICAL — Never commit these ──
+.env
+.env.local
+.env.production
+.env.staging
+
+# ── Node Modules — Never commit ──
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+
+# ── Uploaded Files ──
+uploads/
+tmp/
+temp/
+
+# ── Logs ──
+*.log
+logs/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ── OS Files ──
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ── Editor Files ──
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# ── Build Output ──
+dist/
+build/
+out/
+.cache/
+
+# ── Testing ──
+coverage/
+.nyc_output/
+
+# ── Misc ──
+*.tmp
+*.temp
+*.bak
+*.orig
